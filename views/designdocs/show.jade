@@ -1,0 +1,14 @@
+h2= designdoc.title
+p= designdoc.overview
+p= designdoc.background
+p= designdoc.goals
+p= designdoc.nongoals
+p= designdoc.solution
+p= designdoc.alternatives
+p= designdoc.security
+p= designdoc.cost
+a
+  a(href='/designdocs/'+designdoc.id+'/edit') Edit
+form(action='/designdocs/'+designdoc.id, method='POST')
+  input(type='hidden', name='_method', value='DELETE')
+  input(type='submit', name='DELETE', value='DELETE')

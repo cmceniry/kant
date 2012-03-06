@@ -1,0 +1,42 @@
+p
+  label(for='designdoc_title') Title: YYYY-MM-DD-Topic
+p
+  input(type='text', id='designdoc_title', name='designdoc[title]', value=designdoc.title)
+p
+  label(for='designdoc_overview') Overview: Briefly outline the problem, the areas of change, and the high level solution.
+p
+  input(type='text', id='designdoc_overview', name='designdoc[overview]', value=designdoc.overview)
+p
+  label(for='designdoc_background') Background: Detail the problem or issue to be addressed.
+p
+  input(type='text', id='designdoc_background', name='designdoc[background]', value=designdoc.background)
+p
+  label(for='designdoc_goals') Goals: Itermize the main and any side goals in the solution.
+p
+  input(type='text', id='designdoc_goals', name='designdoc[goals]', value=designdoc.goals)
+p
+  label(for='designdoc_nongoals') Non-Goals: Itemize what is out of scope.
+p
+  input(type='text', id='designdoc_nongoals', name='designdoc[nongoals]', value=designdoc.nongoals)
+p
+  label(for='designdoc_solution') Proposed Solution: Detail the proposed solution.
+p
+  input(type='text', id='designdoc_solution', name='designdoc[solution]', value=designdoc.solution)
+p
+  label(for='designdoc_alternatives') Alternatives: Briefly detail any alternatives that were considered versus the proposed solution.
+p
+  input(type='text', id='designdoc_alternatives', name='designdoc[alternatives]', value=designdoc.alternatives)
+p
+  label(for='designdoc_security') Security: Briefly discuss any security considerations - areas of concern and remediations or compensating controls.
+p
+  input(type='text', id='designdoc_security', name='designdoc[security]', value=designdoc.security)
+p
+  label(for='designdoc_disaster') Disaster Recovery: Briefly discuss any impact on Disaster Recovery if applicable.
+p
+  input(type='text', id='designdoc_disaster', name='designdoc[disaster]', value=designdoc.disaster)
+p
+  label(for='designdoc_cost') Cost: Detail the cost of the proposed solution and alternatives considered.
+p
+  input(type='text', id='designdoc_cost', name='designdoc[cost]', value=designdoc.cost)
+p
+  input(type='submit')

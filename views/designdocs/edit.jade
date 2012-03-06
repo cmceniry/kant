@@ -1,0 +1,4 @@
+h1 Editing #{designdoc.title}
+form(action='/designdocs/'+designdoc.id, method='POST')
+  input(type='hidden', name='_method', value='PUT')
+  div!= partial('designdoc_form', {locals: {designdoc: designdoc}})
