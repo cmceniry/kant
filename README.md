@@ -1,6 +1,6 @@
 # kant: A tracker for design docs
 
-Cribbing from [tom][Tom Limoncelli], it's good to "think before you
+Cribbing from [Tom Limoncelli][tom], it's good to "think before you
 do." One way to reflect this is by writing up Design Docs.
 
 Kant is a simple tracker for some of these documents.
